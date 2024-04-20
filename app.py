@@ -33,7 +33,6 @@ logger = logging.get_logger(__name__)
 
 
 import os
-os.system(f'apt-get update && apt-get install git-lfs')
 # download internlm2 to the base_path directory using git tool
 base_path = './internlm2-chat-7b'
 os.system(f'git clone https://code.openxlab.org.cn/OpenLMLab/internlm2-chat-7b.git {base_path}')
